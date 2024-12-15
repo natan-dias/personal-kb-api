@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/natan-dias/personal-kb-api/graph/badge.svg?token=J54LT6XYZ2)](https://codecov.io/gh/natan-dias/personal-kb-api)<img alt="Python" src="https://img.shields.io/badge/-python-F7B93E?style=flat-square&logo=python&logoColor=white" /><img alt="Flask" src="https://img.shields.io/badge/-Flask-000?style=flat-square&logo=flask&logoColor=white" />
+[![Codecov Workflow](https://github.com/natan-dias/personal-kb-api/actions/workflows/codecov-workflow.yaml/badge.svg)](https://github.com/natan-dias/personal-kb-api/actions/workflows/codecov-workflow.yaml)[![codecov](https://codecov.io/gh/natan-dias/personal-kb-api/graph/badge.svg?token=J54LT6XYZ2)](https://codecov.io/gh/natan-dias/personal-kb-api)<img alt="Python" src="https://img.shields.io/badge/-python-F7B93E?style=flat-square&logo=python&logoColor=white" /><img alt="Flask" src="https://img.shields.io/badge/-Flask-000?style=flat-square&logo=flask&logoColor=white" />
 
 # Personal Knowledge Base Simple API
 
