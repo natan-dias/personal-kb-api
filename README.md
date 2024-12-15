@@ -53,7 +53,7 @@ Just install them using:
 
 ### Running
 
-> python main.py
+> python kb_api.py
 
 This will start a Flask app in localhost which can also be accessible via browser, looking for the `healthcheck` page.
 
@@ -68,3 +68,8 @@ Please check the full [API documentation HERE](./API-documentation.md).
 - Dockerize app
 - Migrate to Postgres
 - Kubernetes Deployment
+
+## Releases
+
+- 0.1.0
+API First release minor version
