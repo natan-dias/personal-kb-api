@@ -1,0 +1,24 @@
+name: Codecov Workflow
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Test python scripts
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install requirements
+      run: pip install -r tests/codecov-requirements.txt
+    - name: Run tests and collect coverage
+      run: |
+        cd tests
+        pytest --cov .
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v4.0.1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+    - name: Cleanup workspace test database
+      run: |
+        cd instance
+        rm -rf database.db
