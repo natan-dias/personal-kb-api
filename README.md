@@ -4,7 +4,7 @@
 
 ## The Goal! :tada:
 
-I have a bad memory :sweat_smile: ! So, in order to deal with that and work with IT, I like to spend some time wrinting useful commands and doing a lot of practice with lab environments and even here, in this repository, because I belive in "learning by doing" style. 
+I have a bad memory :sweat_smile: ! So, in order to deal with that and work with IT, I like to spend some time writing useful commands and doing a lot of practice with lab environments and even here, in this repository, because I belive in "learning by doing" style. 
 
 But over more than 15 years working with that, I believe I have now an issue to find commands using my knowledge base. Of course, today we have a LOT of great IA tools and good search engines to help us with that, but I really like to have my own custom database, with commands that make sense for me or have some kind of useful tip that I need in my day-to-day work.
 
