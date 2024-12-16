@@ -8,6 +8,7 @@ api = Api(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db = SQLAlchemy(app)
 
+
 class CategoryModel(db.Model):
     category_id = db.Column(db.Integer, primary_key=True)
     category = db.Column(db.String(100), nullable=False)
@@ -149,6 +150,7 @@ class Commands(Resource):
         db.session.commit()
         return command, 200
 
+#Endpoints
 api.add_resource(Commands, '/categories/<int:category_id>/commands',
                  '/categories/<int:category_id>/commands/<int:id>')
 

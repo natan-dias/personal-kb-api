@@ -39,3 +39,4 @@ def test_command_post(client):
     data = {'command': 'Test Command', 'command_description': 'Test description'}
     response = client.post('/categories/1/commands', json=data)
     assert response.status_code == 201
+
