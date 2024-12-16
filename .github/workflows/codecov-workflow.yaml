@@ -18,7 +18,5 @@ jobs:
       uses: codecov/codecov-action@v4.0.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-    - name: Cleanup workspace test database
-      run: |
-        cd instance
-        rm -rf database.db
+        files: ./tests/coverage.xml
+        flags: 'base'
